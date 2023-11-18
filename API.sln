@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Movies", "API.Movies\API.Movies.csproj", "{9877BED4-6904-41D4-BB47-E3F402DC2630}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.Users", "API.Movies\API.Users.csproj", "{9877BED4-6904-41D4-BB47-E3F402DC2630}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. API Service", "01. API Service", "{0D275536-22E4-42E1-8E66-6771E057E8BA}"
 EndProject
@@ -15,17 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04. Common", "04. Common", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. UnitTest", "05. UnitTest", "{FAB2FC32-8CD2-42DC-B41B-74347451FC94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{40011E91-1E84-4A2C-A8F8-CE6EF55BC0D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "Utilities\Utilities.csproj", "{40011E91-1E84-4A2C-A8F8-CE6EF55BC0D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataConnect", "DataConnect\DataConnect.csproj", "{801CA0EC-EA4C-479C-9881-D2F950BE3BD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataConnect", "DataConnect\DataConnect.csproj", "{801CA0EC-EA4C-479C-9881-D2F950BE3BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLayer", "DataLayer\DataLayer.csproj", "{7D8722D2-75C0-4A1F-8762-A509E39E23FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLayer", "DataLayer\DataLayer.csproj", "{7D8722D2-75C0-4A1F-8762-A509E39E23FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntitiesLayer", "EntitiesLayer\EntitiesLayer.csproj", "{FBD3C9AC-E076-4D4D-8CB0-6216EA4FC2FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntitiesLayer", "EntitiesLayer\EntitiesLayer.csproj", "{FBD3C9AC-E076-4D4D-8CB0-6216EA4FC2FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicesLayer", "ServicesLayer\ServicesLayer.csproj", "{6EE10C4B-7EE1-4E2D-9F36-C89D1259C893}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesLayer", "ServicesLayer\ServicesLayer.csproj", "{6EE10C4B-7EE1-4E2D-9F36-C89D1259C893}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayers", "BusinessLayers\BusinessLayers.csproj", "{DFE29EB1-1C31-4143-9BFF-9B02E5DE22FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLayers", "BusinessLayers\BusinessLayers.csproj", "{DFE29EB1-1C31-4143-9BFF-9B02E5DE22FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

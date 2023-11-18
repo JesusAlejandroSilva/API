@@ -20,7 +20,7 @@ namespace API.Movies
                 .AddJsonFile("appsettings.json")
                 .Build();
             Configuration = configuration;
-            LogManager.LoadConfiguration(string.Concat(basePath, "nlog.config"));
+           // LogManager.LoadConfiguration(string.Concat(basePath, "nlog.config"));
         }
 
         public IConfiguration Configuration { get; }

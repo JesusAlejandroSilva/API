@@ -1,0 +1,15 @@
+﻿using EntitiesLayer.DTO;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DataLayer.Interfaces
+{
+    public interface IUsersRepository
+    {
+        List<GetUsersDTO> Login(string UserName, string Pass);
+    }
+}
